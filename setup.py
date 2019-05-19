@@ -10,15 +10,15 @@ with open("README.md") as infile:
     long_description = infile.read()
 
 setup(
-    name='halo',
+    name='frkl.halo',
     packages=find_packages(exclude=('tests', 'examples')),
     version='0.0.24',
     license='MIT',
-    description='Beautiful terminal spinners in Python',
+    description='Temporary fork of "halo": Beautiful terminal spinners in Python',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Manraj Singh',
-    author_email='manrajsinghgrover@gmail.com',
+    author='Markus Binsteiner',
+    author_email='markus@frkl.io',
     url='https://github.com/manrajgrover/halo',
     keywords=[
         "console",
